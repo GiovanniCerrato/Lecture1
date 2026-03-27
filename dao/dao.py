@@ -129,4 +129,5 @@ class DAO:
 
 if __name__ == "__main__":
     mydao = DAO()
-    mydao.getAllProdotti()
+    print(mydao.getAllProdotti())
+    print(mydao.getAllClienti())
