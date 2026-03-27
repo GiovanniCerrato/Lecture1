@@ -7,7 +7,7 @@ class DBConnect:
         try:
             cnx = mysql.connector.connect(
                 user = "root",
-                password = "rootroot",
+                password = "root",
                 host = "127.0.0.1",
                 database = "sw_gestionale"
             )
